@@ -1,0 +1,262 @@
+body {
+    margin: 0;
+    background: #b7bea9;
+    font-family: 'Raleway', sans-serif;
+    overflow: visible;
+}
+
+/* CONTAINER */
+.container {
+    width: 92%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* HEADER */
+.header {
+    background: #ffffff;
+    padding: 30px 0 25px;
+}
+
+/* NAV */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-weight: bold;
+
+}
+
+/* LOGO */
+.logo h1 {
+    font-family: 'Modern serif  font', serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: #6e6e6e;
+    margin: 0;
+}
+
+.logo p {
+    margin-top: 8px;
+    font-size: 14px;
+    font-style: italic;
+    color: #9a9a9a;
+    letter-spacing: 2px;
+}
+
+/* RIGHT SECTION */
+.right {
+    text-align: right;
+}
+
+/* MENU */
+.menu {
+    margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.menu a {
+    margin-left: 30px;
+    padding-left: 0;
+    text-decoration: none;
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: #8E8E8E;
+    background-color: #faf9f6
+}
+
+/* LINE */
+.divider {
+    height: 3px;
+    background: #ccc9c9;
+    margin: 8px 0 12px;
+    width: 100%;
+}
+
+/* SOCIAL ICONS */
+.social i {
+    margin-left: 18px;
+    font-size: 20px;
+    color: #BDBDBD;
+    cursor: pointer;
+}
+
+/* HOVER (optional subtle effect) */
+.social i:hover {
+    color: #888;
+    font-size: 30px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .nav {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .right {
+        margin-top: 20px;
+    }
+
+    .menu a {
+        margin: 0 10px;
+    }
+
+    .divider {
+        width: 80%;
+        margin: 10px auto;
+    }
+}
+body {
+    margin: 0;
+    background: #aeb79c; /* green color */
+}
+
+/* GREEN FRAME EFFECT */
+.frame {
+    padding: 50px; /* controls border thickness */
+}
+
+/* WHITE PAGE INSIDE */
+.page {
+    background: #ffffff;
+    min-height: 100vh;
+}
+.hero {
+    position: relative;
+    background: url("images/hero.jpg") center/cover no-repeat;
+
+    padding: 200px 0; /* controls height */
+    overflow: visible;
+}
+.hero-box {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background: #F2F0E6;
+    padding: 40px;
+    max-width: 1000px;
+    text-align: center;
+
+    border: 1px solid#D1D1D1;
+    position: absolute;
+    
+}
+
+/* TITLE */
+.hero-box h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 26px;
+    font-style: italic;
+    color: #757070;
+    margin-bottom: 15px;
+}
+
+/* TEXT */
+.hero-box p {
+    font-size: 14px;
+    color: #7a7a7a;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+/* BUTTON */
+.hero-box button {
+    padding: 10px 25px;
+    background:#EAD2A8;
+    border: none;
+    color: rgb(0, 0, 0);
+    font-size: 12px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+/* SECTION */
+.travel-section {
+    padding: 60px 0;
+    background: #fff;
+}
+
+/* GRID */
+.travel-container {
+    display: flex;
+    gap: 20px;
+}
+
+/* CARD */
+.travel-card {
+    position: relative;
+    flex: 1;
+    overflow: hidden;
+}
+
+/* IMAGE */
+.travel-card img {
+    width: 90%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+    padding-top: 100px;
+}
+
+/* TEXT OVER IMAGE */
+.travel-text {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+/* SECTION */
+.planner-section {
+    padding: 80px 0;
+    background: #F2D59F; /* light beige like design */
+}
+
+/* FLEX */
+.planner-container {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+
+
+/* CONTENT */
+.planner-content h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    color: #6b6b6b;
+    margin-bottom: 15px;
+}
+
+.planner-content p {
+    font-size: 14px;
+    color: #ea8484;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+/* BUTTON */
+.planner-content button {
+    padding: 12px 30px;
+    background: #e1b98f;
+    border: none;
+    color: #fff;
+    font-size: 12px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+@media (max-width: 768px) {
+    .planner-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    
+}
